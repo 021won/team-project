@@ -1,0 +1,15 @@
+@use 'mixin' as m;
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+
+  h1 {
+    padding-top: 10px;
+    height: 100%;
+    img {
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@use 'mixin' as m;
+
+
+
+.result-section {
+  border: 1px solid palevioletred; // del
+
+  figure {
+    padding: 30px;
+
+    .text-img {
+      margin: 0 auto;
+      width: 200px;
+      height: 50px;
+      border: 1px solid green;
+    }
+
+    .dog-img {
+      margin: 0 auto;
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  ul {
+    position: relative;
+    border: 1px solid blue;
+    margin: 0 auto;
+    width: 70%;
+    height: 50%;
+  }
+
+  .result-form {
+    text-align: center;
+    a{
+      display: inline-block;
+      text-align: center;
+      line-height: 40px;
+      width: 130px;
+      height: 40px;
+      background: #371d1e;
+      color: #FFF;
+      border-radius: 5px;
+      &:first-child{
+        margin-right: 50px;
+      }
+    }
+  }
+}

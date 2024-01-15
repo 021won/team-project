@@ -1,0 +1,16 @@
+@use 'mixin' as m;
+
+footer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  address {
+    p {
+      color: rgba(#000, .5);
+      text-align: center;
+      text-shadow: 1px 1px 2px gray;
+      font-size: .8em;
+    }
+  }
+}

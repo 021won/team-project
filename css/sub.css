@@ -1,0 +1,120 @@
+@charset "UTF-8";
+section.sub-section article.chat-bg {
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  background: #b9ccdd;
+  padding: 20px;
+}
+section.sub-section article.chat-bg h3.hidden {
+  display: none;
+}
+section.sub-section article.chat-bg div.print {
+  text-align: center;
+  height: 45px;
+  background: #ff0;
+}
+section.sub-section article.chat-bg > ul {
+  flex: 1;
+  padding: 0 10px;
+  border: 3px solid pink;
+  overflow-y: scroll; /* auto변경 */
+}
+section.sub-section article.chat-bg > ul li {
+  padding: 5px 0;
+}
+section.sub-section article.chat-bg > ul li figure {
+  position: relative;
+  display: flex;
+  align-items: start;
+  border: 3px solid orange;
+}
+section.sub-section article.chat-bg > ul li figure::before {
+  position: absolute;
+  top: 0;
+  font-size: 0.9em;
+  color: rgb(201, 107, 0);
+  font-weight: 600;
+}
+section.sub-section article.chat-bg > ul li figure p {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 70%;
+}
+section.sub-section article.chat-bg > ul li.host figure.host-box::before {
+  content: "question";
+  left: 70px;
+}
+section.sub-section article.chat-bg > ul li.host figure.host-box img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+section.sub-section article.chat-bg > ul li.host figure.host-box p.question {
+  margin-left: 10px;
+}
+section.sub-section article.chat-bg > ul li.user figure.user-box {
+  justify-content: right;
+}
+section.sub-section article.chat-bg > ul li.user figure.user-box::before {
+  content: "answer";
+  right: 70px;
+}
+section.sub-section article.chat-bg > ul li.user figure.user-box p.answer {
+  margin-right: 10px;
+}
+section.sub-section article.chat-bg > ul li.user figure.user-box b.user-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background-image: url(../img/name-bg2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+section.sub-section article.chat-bg > ul li.user figure.user-box b.user-name i {
+  font-size: 1.3em;
+}
+section.sub-section article.chat-bg > ul li.user figure.user-box b.user-name span.name {
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+section.sub-section article.question-form {
+  height: 25%;
+}
+section.sub-section article.question-form form.sub-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section.sub-section article.question-form form.sub-form p.choice-btns {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.sub-section article.question-form form.sub-form p.choice-btns button {
+  background: yellowgreen;
+  width: 45%;
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+section.sub-section article.question-form form.sub-form div.menu-img {
+  background: green;
+  width: 40%;
+}
+section.sub-section article.question-form form.sub-form div.menu-img img {
+  width: 100%;
+}/*# sourceMappingURL=sub.css.map */

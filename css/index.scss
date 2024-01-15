@@ -1,0 +1,72 @@
+@use 'mixin' as m;
+
+.main-section {
+  background: #FFF136;
+  h2 {
+    width: min(45%, 200px);
+    margin: 40px auto;
+    img {
+      width: 100%;
+    }
+  }
+
+  .text-box {
+    p {
+      position: relative;
+
+      i {
+        position: absolute;
+        top: 10%;
+        left: 80%;
+        /* right 좌표 주기 */
+      }
+    }
+
+    input {
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+      height: 30px;
+      margin-bottom: 10px;
+      border: none;
+      padding-left: 15px;
+    }
+  }
+
+  >p {
+    text-align: center;
+  }
+
+  .auto-login {
+    margin: 30px auto;
+
+    b {
+      padding: 5px 5px;
+      margin-right: 10px;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+  }
+
+  .start {
+    a {
+      display: inline-block;
+      background: #330000;
+      color: #fff;
+      border-radius: 10px;
+
+      @media #{m.$min-sm} {
+        padding: 15px 60px;
+        font-size: 1.5em;
+      }
+
+      @media #{m.$sm} {
+        padding: 15px 50px;
+        font-size: 1.2em;
+      }
+    }
+  }
+  .explanation{
+    margin-top: 30px;
+  }
+}
