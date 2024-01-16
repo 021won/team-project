@@ -7,7 +7,7 @@ section.sub-section {
     flex-direction: column;
 
     height: 75%;
-    background: #b9ccdd;
+    background: m.$skyblue;
     padding: 20px;
     h3.hidden {
       display: none;
@@ -15,7 +15,7 @@ section.sub-section {
     div.print {
       text-align: center;
       height: 45px;
-      background: #ff0;
+      background: m.$yellow;
     }
 
     > ul {

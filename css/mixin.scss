@@ -3,6 +3,9 @@ $max-lg: 'screen and (max-width:1000px)';
 $md: 'screen and (min-width:500px) and (max-width:1000px)';
 $sm: 'screen and (max-width:500px)';
 $min-sm: 'screen and (min-width:500px)';
+$yellow: #FFF136;
+$brown: #3c1d10;
+$skyblue: #b9ccdd;
 
 @mixin icon($psuedo, $unicode) {
   &::#{$psuedo} {
