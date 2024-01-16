@@ -11,8 +11,7 @@ section.sub-section article.chat-bg h3.hidden {
 }
 section.sub-section article.chat-bg div.print {
   text-align: center;
-  height: 45px;
-  background: #FFF136;
+  border: 1px solid #000;
 }
 section.sub-section article.chat-bg > ul {
   flex: 1;

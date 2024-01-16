@@ -6,7 +6,6 @@
       채팅화면페이지
     </h3>
     <div class="print">
-      2024년 1월 5일
     </div>
 
     <ul>
