@@ -1,31 +1,17 @@
 .result-section {
-  border: 1px solid palevioletred;
-}
-.result-section figure {
-  padding: 30px;
-}
-.result-section figure .text-img {
-  margin: 0 auto;
-  width: 200px;
-  height: 50px;
-  border: 1px solid green;
+  position: relative;
+  background: #FFF136;
 }
 .result-section figure .dog-img {
   margin: 0 auto;
-  width: 150px;
-  height: 150px;
-}
-.result-section ul {
-  position: relative;
-  border: 1px solid blue;
-  margin: 0 auto;
-  width: 70%;
-  height: 50%;
+  width: 100%;
 }
 .result-section .result-form {
   text-align: center;
 }
 .result-section .result-form a {
+  position: absolute;
+  bottom: 50px;
   display: inline-block;
   text-align: center;
   line-height: 40px;
@@ -34,6 +20,14 @@
   background: #371d1e;
   color: #FFF;
   border-radius: 5px;
+}
+.result-section .result-form a.reset {
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.result-section .result-form a.save {
+  right: 30%;
+  transform: translate(50%, -50%);
 }
 .result-section .result-form a:first-child {
   margin-right: 50px;
