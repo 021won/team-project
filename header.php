@@ -13,7 +13,9 @@
   <script src="https://kit.fontawesome.com/62e093ea55.js" crossorigin="anonymous"></script>
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="./js/common.js"></script>
+  <script src="./js/index.js"></script>
   <script src="./js/sub.js"></script>
+  <script src="./js/result.js"></script>
   <title>멍MBTI</title>
 </head>
 <body>
