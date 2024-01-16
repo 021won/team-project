@@ -1,24 +1,25 @@
 @charset "UTF-8";
-.main-section {
+form.main-section {
+  flex: 1;
   background: #FFF136;
 }
-.main-section h2 {
+form.main-section h2 {
   width: min(45%, 200px);
   margin: 40px auto;
 }
-.main-section h2 img {
+form.main-section h2 img {
   width: 100%;
 }
-.main-section .text-box p {
+form.main-section .text-box p {
   position: relative;
 }
-.main-section .text-box p i {
+form.main-section .text-box p i {
   position: absolute;
   top: 10%;
   left: 80%;
   /* right 좌표 주기 */
 }
-.main-section .text-box input {
+form.main-section .text-box input {
   display: block;
   margin: 0 auto;
   width: 70%;
@@ -27,36 +28,36 @@
   border: none;
   padding-left: 15px;
 }
-.main-section > p {
+form.main-section > p {
   text-align: center;
 }
-.main-section .auto-login {
+form.main-section .auto-login {
   margin: 30px auto;
 }
-.main-section .auto-login b {
+form.main-section .auto-login b {
   padding: 5px 5px;
   margin-right: 10px;
   background: #fff;
   border: 1px solid #ddd;
 }
-.main-section .start a {
+form.main-section .start a, form.main-section .start button {
   display: inline-block;
   background: #3c1d10;
   color: #fff;
   border-radius: 10px;
 }
 @media screen and (min-width:500px) {
-  .main-section .start a {
+  form.main-section .start a, form.main-section .start button {
     padding: 15px 60px;
     font-size: 1.5em;
   }
 }
 @media screen and (max-width:500px) {
-  .main-section .start a {
+  form.main-section .start a, form.main-section .start button {
     padding: 15px 50px;
     font-size: 1.2em;
   }
 }
-.main-section .explanation {
+form.main-section .explanation {
   margin-top: 30px;
 }/*# sourceMappingURL=index.css.map */
