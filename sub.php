@@ -1,5 +1,6 @@
 <?php include 'header.php' ?>
 <script src="./js/typed.min.js"></script>
+<script src="./js/data.js"></script>
 <script src="./js/sub.js"></script>
 <section class="sub-section">
   <article class="chat-bg">

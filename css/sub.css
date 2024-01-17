@@ -14,12 +14,10 @@ section.sub-section article.chat-bg h3.hidden {
 }
 section.sub-section article.chat-bg time {
   text-align: center;
-  border: 1px solid #000;
 }
 section.sub-section article.chat-bg > ul {
   flex: 1;
   padding: 0 10px;
-  border: 3px solid pink;
   overflow: hidden;
   overflow-y: auto; /* auto변경 */
 }
@@ -41,19 +39,13 @@ section.sub-section article.chat-bg > ul li {
   padding: 5px 0;
   animation: fadeIn 2s;
 }
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+section.sub-section article.chat-bg > ul li:last-child {
+  margin-bottom: 100px;
 }
 section.sub-section article.chat-bg > ul li figure {
   position: relative;
   display: flex;
   align-items: start;
-  border: 3px solid orange;
 }
 section.sub-section article.chat-bg > ul li figure::before {
   position: absolute;
@@ -136,6 +128,7 @@ section.sub-section article.question-form form.sub-form p.choice-btns button {
   margin: 0 5px;
   padding: 10px;
   border-radius: 10px;
+  animation: fadeIn 1s;
 }
 section.sub-section article.question-form form.sub-form div.menu-img {
   background: green;
