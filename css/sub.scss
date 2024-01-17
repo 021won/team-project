@@ -1,34 +1,35 @@
 @use "mixin" as m;
 
 section.sub-section {
-
+  overflow: hidden;
   article.chat-bg {
     display: flex;
     flex-direction: column;
-
     height: 75%;
     background: m.$skyblue;
     padding: 20px;
     h3.hidden {
       display: none;
     }
-    div.print {
+    time {
       text-align: center;
-      border: 1px solid #000;
     }
-
     > ul {
       flex:1;
       padding: 0 10px;
-      border:3px solid pink;
-      overflow-y: scroll;/* auto변경 */
+      overflow: hidden;
+      overflow-y: auto;/* auto변경 */
+      @include m.scrollbar;
       li {
         padding: 5px 0;
+        animation:  fadeIn 2s;
+        &:last-child{
+          margin-bottom: 100px;
+        }
         figure {
           position: relative;
           display: flex;
           align-items: start;
-          border:3px solid orange;
           &::before{
             position: absolute;
             top:0;
@@ -43,7 +44,6 @@ section.sub-section {
             border-radius: 10px;
             max-width: 70%;
           }
-
         }
         &.host {
           figure.host-box {
@@ -109,19 +109,18 @@ section.sub-section {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      
       p.choice-btns {
         flex:1;
         display: flex;
         align-items: center;
-        justify-content: center;
-        
+        justify-content: center;   
         button {
           background: yellowgreen;
           width: 45%;
           margin: 0 5px;
           padding: 10px;
           border-radius: 10px;
+          animation: fadeIn 1s;
         }
       }
 

@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-
+<script src="./js/result.js"></script>
 <section class="result-section">
   <figure>
     <img class="dog-img" src="./img/123456.png" alt="">
