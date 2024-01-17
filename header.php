@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/animation.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/header.css">
@@ -14,8 +15,7 @@
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="./js/common.js"></script>
   <script src="./js/index.js"></script>
-  <script src="./js/sub.js"></script>
-  <script src="./js/result.js"></script>
+
   <title>멍MBTI</title>
 </head>
 <body>
