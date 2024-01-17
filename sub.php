@@ -42,7 +42,7 @@
         -->
       </p>
       <div class="menu-img">
-        <img src="./img/스크린샷 2024-01-04 224844.png" alt="">
+        <img src="./img/sub-하단.png" alt="">
       </div>
     </form>
   </article>
