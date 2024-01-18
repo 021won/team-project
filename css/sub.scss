@@ -115,18 +115,25 @@ section.sub-section {
         display: flex;
         align-items: center;
         justify-content: center;   
+
         button {
-          background: yellowgreen;
+          background: m.$brown;
           width: 45%;
           margin: 0 5px;
           padding: 10px;
           border-radius: 10px;
           animation: fadeIn 1s;
+          color: #FFF;
+          transition: all .5s;
+          &:hover{
+            background: m.$yellow;
+            color: m.$brown;
+            font-weight: bold;
+          }
         }
       }
 
       div.menu-img {
-        background: green;
         width: 40%;
         img {
           width: 100%;

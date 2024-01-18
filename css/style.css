@@ -11,7 +11,7 @@ body {
   font-weight: normal;
   text-decoration: none;
   font-style: normal;
-  background: #FF0;
+  background: rgba(255, 241, 54, 0.2);
 }
 @media (hover: hover) {
   body::-webkit-scrollbar-track {

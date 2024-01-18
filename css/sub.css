@@ -124,15 +124,21 @@ section.sub-section article.question-form form.sub-form p.choice-btns {
   justify-content: center;
 }
 section.sub-section article.question-form form.sub-form p.choice-btns button {
-  background: yellowgreen;
+  background: #3c1d10;
   width: 45%;
   margin: 0 5px;
   padding: 10px;
   border-radius: 10px;
   animation: fadeIn 1s;
+  color: #FFF;
+  transition: all 0.5s;
+}
+section.sub-section article.question-form form.sub-form p.choice-btns button:hover {
+  background: #FFF136;
+  color: #3c1d10;
+  font-weight: bold;
 }
 section.sub-section article.question-form form.sub-form div.menu-img {
-  background: green;
   width: 40%;
 }
 section.sub-section article.question-form form.sub-form div.menu-img img {
