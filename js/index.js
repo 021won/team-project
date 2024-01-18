@@ -1,7 +1,8 @@
+
 $(function(){
-  $('.start button').click(function(e){
+  $('.main-section').submit(function(e){
     e.preventDefault()
-    let name = document.querySelector('.name').value
+    var name = $('.name').val()
     location.href =`./sub.php?name=${name}`
   })
 })

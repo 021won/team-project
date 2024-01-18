@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<script src="./js/index.js"></script>
 <!-- 로고1 숨기기 -->
   <form class="main-section"> <!-- 클래스 이름 변경 -->
     <h2>
@@ -17,7 +18,7 @@
       * 위 빈칸에 이름을 입력하신 후 시작하기를 클릭하세요. <br> 
       본문 상황을 읽고 해당하는 답을 선택해주세요.
     </p>
-  
+    <?php include "loader.php"?>
 </form>
 
 

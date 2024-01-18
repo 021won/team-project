@@ -122,6 +122,7 @@ section.sub-section article.question-form form.sub-form p.choice-btns {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 section.sub-section article.question-form form.sub-form p.choice-btns button {
   background: #3c1d10;
@@ -137,6 +138,9 @@ section.sub-section article.question-form form.sub-form p.choice-btns button:hov
   background: #FFF136;
   color: #3c1d10;
   font-weight: bold;
+}
+section.sub-section article.question-form form.sub-form p.choice-btns img.running-dog {
+  height: 80%;
 }
 section.sub-section article.question-form form.sub-form div.menu-img {
   width: 40%;

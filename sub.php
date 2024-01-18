@@ -42,7 +42,7 @@
         -->
       </p>
       <div class="menu-img">
-        <img src="./img/sub-하단.png" alt="">
+        <img src="./img/sub-bottom.png" alt="">
       </div>
     </form>
   </article>

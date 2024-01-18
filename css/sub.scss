@@ -115,7 +115,7 @@ section.sub-section {
         display: flex;
         align-items: center;
         justify-content: center;   
-
+        overflow: hidden;
         button {
           background: m.$brown;
           width: 45%;
@@ -130,6 +130,9 @@ section.sub-section {
             color: m.$brown;
             font-weight: bold;
           }
+        }
+        img.running-dog{
+          height: 80%;
         }
       }
 

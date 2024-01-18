@@ -10,7 +10,7 @@ const qArr = [
   {question: '나 힘들게 돈 모아서 노트북 샀어..', category: 't'},
   {question: '여행을 계획할 때 나는?', category: 'i'},
   {question: '친구들과 약속이 있을때 나는?', category: 'i'},
-  {question: '오늘 하루 일정은?', category: 'i'}
+  {question: '오늘 하루 일정은?', category: 'i'} 
   
 ]
 
