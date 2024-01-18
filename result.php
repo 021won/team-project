@@ -1,9 +1,9 @@
 <?php include 'header.php' ?>
 <script src="./js/result.js"></script>
 <section class="result-section">
-  <figure>
-    <img class="dog-img" src="./img/123456.png" alt="">
-  </figure>
+
+    <img class="dog-img" src="./img/result/enfj.png" alt="">
+
 
   <form class="result-form">
     <a class="reset" href="./index.php"><i class="fa-solid fa-rotate-left"></i> 다시하기</a>

@@ -2,9 +2,12 @@
   position: relative;
   background: #FFF136;
 }
-.result-section figure .dog-img {
-  margin: 0 auto;
-  width: 100%;
+.result-section .dog-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
 }
 .result-section .result-form {
   text-align: center;

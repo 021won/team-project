@@ -1,6 +1,7 @@
 @charset "UTF-8";
 section.sub-section {
   overflow: hidden;
+  background: #FFF;
 }
 section.sub-section article.chat-bg {
   display: flex;

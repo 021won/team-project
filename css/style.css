@@ -11,6 +11,7 @@ body {
   font-weight: normal;
   text-decoration: none;
   font-style: normal;
+  background: #FF0;
 }
 @media (hover: hover) {
   body::-webkit-scrollbar-track {
@@ -34,9 +35,8 @@ main {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: min(100%, 500px);
-  height: min(100%, 800px);
-  border: 5px solid red;
+  width: min(95%, 500px);
+  height: min(97%, 800px);
 }
 main section {
   flex: 1;

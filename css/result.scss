@@ -3,12 +3,12 @@
 .result-section {
   position: relative;
   background: m.$yellow;
-
-  figure {
-    .dog-img {
-      margin: 0 auto;
-      width: 100%;
-    }
+  .dog-img {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
   }
 
   .result-form {
